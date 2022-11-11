@@ -1,4 +1,4 @@
-# Stock-history-on-PyQT6
+# Yahoo-Stocks
 PyQT6 project that parses, receives and processes data from Yahoo Finance
 
 ## Проект на PyQT6 для отслеживания инвестиционого портфеля
