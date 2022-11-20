@@ -29,6 +29,7 @@ class StocksWindow(QWidget):
         self.graphics_button.setText("Построить график")
         self.graphics_button.clicked.connect(self.show_graph_window)
 
+        # кнопка для показа важной информации
         self.more_info_button = QPushButton(self)
         self.more_info_button.setText("Показать важную информацию из таблицы")
         self.more_info_button.clicked.connect(self.show_more_info_window)
