@@ -10,9 +10,14 @@ def stocks_returns(assets, weights, from_date, to_date):
     date_history = 0
     price_history = 0
     for asset in assets:
+        # запрос на сервер
         history = yf.Ticker(asset).history(start=pd.to_datetime(from_date) - pd.DateOffset(1),
                                            end=pd.to_datetime(to_date) + pd.DateOffset(1))
+        
+        
         date_history = history.index
+        
+        # получение ценн
         price_history = history["Close"]
 
         for price in range(0, len(price_history)):
