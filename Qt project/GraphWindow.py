@@ -11,6 +11,7 @@ class GraphWindow(QWidget):
         # основной layout
         self.main_layout = QVBoxLayout(self)
 
+        # title для window
         self.title = QLabel(self)
         self.title.setText("Графики")
 
