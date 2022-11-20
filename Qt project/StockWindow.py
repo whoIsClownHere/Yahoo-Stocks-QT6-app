@@ -12,15 +12,19 @@ class StocksWindow(QWidget):
         self.more_info_window = None
         self.resize(700, 500)
 
+        # главный layout
         self.main_layout = QVBoxLayout(self)
-
+        
+        # информация о запросе
         self.table_info = QLineEdit(self)
         self.table_info.setText(f"Акции {name} в период с {date_from} по {date_to}")
         self.table_info.setEnabled(False)
 
+        # создание таблицы
         self.stock_table = QTableWidget(self)
         self.load_data()
 
+        # кнопка для построения графика
         self.graphics_button = QPushButton(self)
         self.graphics_button.setText("Построить график")
         self.graphics_button.clicked.connect(self.show_graph_window)
