@@ -2,6 +2,7 @@ import pandas as pd
 import yfinance as yf
 
 
+# функция запроса и обработки цены на сервер
 def stocks_returns(assets, weights, from_date, to_date):
     stock_data = pd.Series()
     asset_number = 0
