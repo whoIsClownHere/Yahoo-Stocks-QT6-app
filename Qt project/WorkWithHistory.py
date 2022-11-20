@@ -1,6 +1,7 @@
 import sqlite3
 
 
+# получение истоиии запросов к сайту yahoo fin
 def get_history():
     con = sqlite3.connect("History.sqlite")
     cur = con.cursor()
@@ -13,6 +14,7 @@ def get_history():
     return li
 
 
+# добовление элемента в бд
 def add_item_to_history(name, weight, divider, date_from, date_to):
     con = sqlite3.connect("History.sqlite")
     cur = con.cursor()
@@ -22,6 +24,7 @@ def add_item_to_history(name, weight, divider, date_from, date_to):
     con.close()
 
 
+# удаление всех элементов из бд
 def clear_history():
     con = sqlite3.connect("History.sqlite")
     cur = con.cursor()
