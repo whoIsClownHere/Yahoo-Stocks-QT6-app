@@ -1,17 +1,9 @@
 # Yahoo-Stocks
 PyQT6 project that parses, receives and processes data from Yahoo Finance
 
-## Проект на PyQT6 для отслеживания инвестиционого портфеля
+## Project on PyQT6 for tracking investment portfolio
 
-С помощью программы можно легко отслеживать полностью активность инвестиционного портфеля, данные для отслеживания берутся с Yahoo Finance. Пользователю
-необходимо ввести названия тикеров акций, вес каждой акции в портфели, дата покупки акций и дата продажи акций. После чего в csv таблице можно легко
-отследить данные о движении инвестиционного портфеля в процентном соотношении. Пользователь также может построить несколько типов графиков: общее 
-движение инвестиционного портфеля, соотношение количества дней, когда акции приносили убыток и дней, когда приносили прибыль, график "ящик с усами",
-который поможет понять медиану, размах и другую полезную информацию. В приложении также доступна важная информация, которая формируется из csv таблицы по 
-данным о движении инвестиционного портфеля. Важная информация представляет собой csv таблицу, в которой находится количество дней, среднее арифметическое
-всех показателей, стандартное отклонение, минимальное значение, максимальное значение, числа, которые находятся на 25%, 50%, 75% от длины индексах,
-из csv таблицы по данным о движении инвестиционного портфеля. Также реализована история ввода данных в приложение пользователем, для этого используется
-технология sqLite, которая представляет из себя базу данных.
+With the help of the program, you can easily track the entire activity of the investment portfolio, the tracking data is taken from Yahoo Finance. The user needs to enter the stock ticker names, the weight of each stock in the portfolios, the stock purchase date, and the stock sale date. After that, in the csv table, you can easily track the data on the movement of the investment portfolio as a percentage. The user can also build several types of charts: the overall movement of the investment portfolio, the ratio of the number of days when the stock brought a loss and the days when it brought profit, a "box with a mustache" chart that will help you understand the median, range and other useful information. Important information is also available in the application, which is generated from the csv table according to the data on the movement of the investment portfolio. Important information is a csv table that contains the number of days, the arithmetic mean of all indicators, standard deviation, minimum value, maximum value, numbers that are 25%, 50%, 75% of the length of the indices, from the csv table according to the data on movement of the investment portfolio. The history of data entry into the application by the user is also implemented, for this the sqLite technology is used, which is a database.
 
 
 Технологии:
@@ -23,4 +15,4 @@ PyQT6 project that parses, receives and processes data from Yahoo Finance
 5. sqlite3
 
 -----------------------------------------------------------------------------------------
-© Авторская собственность
+© Copyright
