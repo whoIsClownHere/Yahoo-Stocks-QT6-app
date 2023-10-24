@@ -140,13 +140,10 @@ class MainWindow(QWidget):
             self.error_title.setText("Неправильный ввод данных, попробуйте ещё раз")
             return
 
-        if date_from < date_to:
-            self.error_title.setText("")
-            stocks_returns(all_stocks, width, date_from, date_to)
-            self.stock_window = StocksWindow(names, date_from, date_to)
-            self.stock_window.show()
-        else:
-            self.error_title.setText("Дата покупки больше, чем даты продажи")
+        self.error_title.setText("")
+        stocks_returns(all_stocks, width, date_from, date_to)
+        self.stock_window = StocksWindow(names, date_from, date_to)
+        self.stock_window.show()
 
     def show_history_window(self):
         self.history_window = HistoryWindow()
