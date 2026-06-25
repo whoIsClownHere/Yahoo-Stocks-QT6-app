@@ -1,15 +1,7 @@
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=220&section=header&text=Yahoo%20Stocks&fontSize=72&fontColor=41CD52&animation=fadeIn&fontAlignY=42&desc=PyQt6%20%E2%80%A2%20Portfolio%20Tracker%20%E2%80%A2%20Yahoo%20Finance&descAlignY=65&descSize=18&descColor=ffffff" width="100%" />
-</div>
-<div align="center">
-[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
-[![PyQt6](https://img.shields.io/badge/PyQt6-6.x-41CD52?style=flat-square&logo=qt&logoColor=white)](https://pypi.org/project/PyQt6/)
-[![yfinance](https://img.shields.io/badge/yfinance-data-8A2BE2?style=flat-square)](https://pypi.org/project/yfinance/)
-[![pandas](https://img.shields.io/badge/pandas-analysis-150458?style=flat-square&logo=pandas)](https://pandas.pydata.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE.md)
- 
-</div>
+<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=gradient&customColorList=12,20,30&text=Yahoo%20Stocks&fontSize=62&fontAlignY=38&desc=PyQt6%20desktop%20portfolio%20analytics%20powered%20by%20Yahoo%20Finance&descAlignY=58&animation=fadeIn" alt="Yahoo Stocks banner" /> </p>
+<p align="center"> <a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white"></a> <img alt="PyQt6" src="https://img.shields.io/badge/PyQt6-Desktop%20GUI-41CD52?style=for-the-badge&logo=qt&logoColor=white"> <img alt="Yahoo Finance" src="https://img.shields.io/badge/Yahoo%20Finance-Market%20Data-6001D2?style=for-the-badge&logo=yahoo&logoColor=white"> <img alt="License" src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge"> </p>
+<p align="center"> <b>Track weighted stock portfolios, calculate historical returns, export CSV analytics, and visualize performance from a clean Qt desktop interface.</b> </p>
+<p align="center"> <a href="#-features">Features</a> · <a href="#-quick-start">Quick Start</a> · <a href="#-usage">Usage</a> · <a href="#-architecture">Architecture</a> · <a href="#-roadmap">Roadmap</a> </p>
 ---
 
 ## 📌 Overview
